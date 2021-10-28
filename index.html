@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="loader">
+        loading
+    </div>
+    <div class="container">
+
+        <div id="circularMenu1" class="circular-menu circular-menu-left active">
+
+            <a class="floating-btn" onclick="document.getElementById('circularMenu1').classList.toggle('active');">
+              <i class="fa fa-bars"></i>
+            </a>
+          
+            <menu class="items-wrapper">
+              <a href="#1"  data-id="0" class="menu-item fa fa-home"></a>
+              <a href="#2" data-id="1" class="menu-item fa fa-user"></a>
+              <a href="#3" data-id="2" class="menu-item fa fa-pie-chart"></a>
+              <a href="#4" data-id="3" class="menu-item fa fa-cog"></a>
+            </menu>
+          
+          </div>
+        <!-- <div class="menu">
+            <ul>
+                <li><a href="/#1" class="nav" data-id="0">1 </a></li>
+                <li><a href="/#2" class="nav" data-id="1">2</a></li>
+                <li><a href="/#3" class="nav" data-id="2">3</a></li>
+                <li><a href="/#4" class="nav" data-id="3">4</a></li>
+                <li><a href="/#5" class="nav" data-id="4">3</a></li>
+                <li><a href="/#6" class="nav" data-id="5">4</a></li>
+            </ul>
+        </div> -->
+        <div class="view view1" data-slide="1">
+            <span>view1</span>
+        </div>
+        <div class="view view2" data-slide="2">
+            <span>view2</span>
+        </div>
+        <div class="view view3" data-slide="3">
+            <span>view3</span>
+        </div>
+        <div class="view view4" data-slide="4">
+            <span>view4 </span>
+        </div>
+        <div class="view view5" data-slide="5">
+            <span>view5</span>
+        </div>
+        <div class="view view6" data-slide="6">
+            <span>view6 </span>
+        </div>
+    </div>
+	<script src="src/index.js">
+	</script>
+</body>
+
+</html>
